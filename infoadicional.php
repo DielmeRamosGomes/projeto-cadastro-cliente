@@ -7,8 +7,6 @@
 
       <!-- INCLUINDO JQUERY -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
-      <!-- INCLUINDO ANIMATE CSS -->
-      <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
       <!-- INCLUINDO MATERIALIZE CSS-->
       <link rel="stylesheet" href="assets/css/materialize.min.css">
       <!-- INCLUINDO WOW JavaScript -->
