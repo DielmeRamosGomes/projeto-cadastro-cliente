@@ -84,7 +84,6 @@
   });
 
 // Scroll suave
-// Select all links with hashes
 
 $(document).on('click', 'a[href^="#"]', function (event) {
     event.preventDefault();
