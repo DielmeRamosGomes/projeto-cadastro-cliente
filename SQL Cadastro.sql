@@ -208,10 +208,7 @@ CALL cadastroTipoRedeSocial("Linkedin");
 CALL cadastroTipoRedeSocial("Twitter");
 CALL cadastroTipoRedeSocial("Instagram"); 
 
-SELECT * FROM usuario;
-SELECT * FROM telefone;
-SELECT * FROM endereco;
-SELECT * FROM redeSocial;
+
 
 
 

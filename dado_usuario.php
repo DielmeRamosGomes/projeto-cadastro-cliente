@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- INCUINDO JavaScript -->
     <script type="text/javascript" src="assets/js/function.js"></script>
+  
 
   </head>
   <body>
@@ -60,35 +61,11 @@
 
     NOME: <input type="text" name="nomeUsuario" class="campo" maxlenght="50" required=""><br>
 
-    <input type="submit" value="MOSTRAR DADOS" class="btn" href="dado_usuario.php">
+    <input type="submit" value="MOSTRAR DADOS" class="btn">
   </form>
+  </div>
 
-  <script>
-    printf("entra no script");
-    let xmlhttp;
-    if (window.XMLHttpRequest()){
-        xmlhttp = new XMLHttpRequest();
-    } else {
-        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-    }
-    xmlhttp.open("GET", 'mostrar_dados_por_nomes.php', false);
-    xmlhttp.send();
-    xmlDoc = xmlhttp.responseXML();
-    document.write("<table border='1'>");
-    let x = xmlDoc.getElementsByTagName("marker");
-    for (let i = 0; i < x.length; i++){
-        document.write("<tr><td>");
-        document.write("ID: " + x[i].[0].childNodes[0].nodeValue);
-        document.write("</br>")
-        document.write("NOME: " + x[i].[0].childNodes[0].nodeValue);
-        document.write("</td></tr>");
-    }
-    document.write("</table>");
-</script>
-
-</div>
-
-
+  
 <div>
     <h5  class="center">MOSTRAR TODOS OS USUARIOS </h5>
   
