@@ -2,7 +2,6 @@
 Projeto desenvolvido para emular um cadastro de cliente em um site utilizando banco de dados MySQL.
 
 O projeto foi desenvolvido utilizando as linguagens JavaScript e PHP, e também utilizando banco
-
 de dados MySQL para guardar as informações dos clientes.
 
 1 - Para fazer a aplicação funcionar deve ter um servidor SQL.
